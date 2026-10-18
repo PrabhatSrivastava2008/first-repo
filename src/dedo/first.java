@@ -7,7 +7,7 @@ public class first {
 			Connection con = DriverManager.getConnection(
 			    "jdbc:mysql://localhost:3306/college", 
 			    "root", 
-			    "Prabhat@2008" 
+			    "Prabhat@2008"
 			);
 		}catch(Exception e) {
 			System.out.println(e.getMessage());
